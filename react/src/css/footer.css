@@ -1,0 +1,22 @@
+footer{
+    height:80px;
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+footer p {
+    color:gold;
+    font-size:30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+@media (max-width:500px){
+    footer p {
+        font-size: 20px;
+    }
+}
